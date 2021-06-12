@@ -210,6 +210,7 @@ export const AutocompleteDropdown = memo(
           () => (
             <ScrollViewListItem
               {...{ titleHighlighted, titleStart, titleEnd }}
+              textStyle={props.suggestionsListTextStyle}
               onPress={() => _onSelectItem(item)}
             ></ScrollViewListItem>
           ),

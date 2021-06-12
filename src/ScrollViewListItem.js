@@ -2,7 +2,7 @@ import React, { memo } from 'react'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 
 export const ScrollViewListItem = memo(
-  ({ titleHighlighted, titleStart, titleEnd, onPress, numberOfLines = 2 }) => {
+  ({ titleHighlighted, titleStart, titleEnd, onPress, numberOfLines = 2,textStyle }) => {
     return (
       <TouchableOpacity onPress={onPress}>
         <View style={styles.container}>
@@ -12,7 +12,7 @@ export const ScrollViewListItem = memo(
             </Text>
             <Text
               numberOfLines={1}
-              style={{ ...styles.text, fontWeight: 'bold' }}
+              style={{ ...styles.text, fontWeight: 'bold',textStyle }}
             >
               {titleHighlighted}
             </Text>
