@@ -36,6 +36,7 @@ interface AutocompleteDropdownProps {
   containerStyle?: StyleProp<ViewStyle>
   rightButtonsContainerStyle?: StyleProp<ViewStyle>
   suggestionsListContainerStyle?: StyleProp<ViewStyle>
+  inputContainerStyle?:StyleProp<ViewStyle>; 
   ChevronIconComponent?: JSX.Element
   ClearIconComponent?: JSX.Element
   ScrollViewComponent?: JSX.Element
