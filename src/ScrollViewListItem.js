@@ -12,7 +12,7 @@ export const ScrollViewListItem = memo(
             </Text>
             <Text
               numberOfLines={1}
-              style={{ ...styles.text, fontWeight: 'bold',textStyle }}
+              style={[{ ...styles.text, fontWeight: 'bold', },textStyle]}
             >
               {titleHighlighted}
             </Text>
