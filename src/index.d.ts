@@ -40,7 +40,7 @@ interface AutocompleteDropdownProps {
   ChevronIconComponent?: JSX.Element
   ClearIconComponent?: JSX.Element
   ScrollViewComponent?: JSX.Element
-  textInputProps?: TextInputProps;
+  textInputProps?: Partial<TextInputProps>;
 }
 
 export const AutocompleteDropdown: FC<AutocompleteDropdownProps>
