@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { StyleProp, ViewStyle } from 'react-native'
+import { StyleProp, TextInputProps, ViewStyle } from 'react-native'
 
 export type TAutocompleteDropdownItem = {
   id: string
@@ -40,6 +40,7 @@ interface AutocompleteDropdownProps {
   ChevronIconComponent?: JSX.Element
   ClearIconComponent?: JSX.Element
   ScrollViewComponent?: JSX.Element
+  textInputProps?: TextInputProps;
 }
 
 export const AutocompleteDropdown: FC<AutocompleteDropdownProps>
