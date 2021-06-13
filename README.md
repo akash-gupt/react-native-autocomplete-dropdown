@@ -2,7 +2,7 @@
 
 Dropdown Item picker with search and autocomplete (typeahead) functionality for react native
 
-[![license](https://img.shields.io/github/license/onmotion/react-native-autocomplete-dropdown)](https://img.shields.io/github/license/onmotion/react-native-autocomplete-dropdown)
+[![license](https://img.shields.io/github/license/akash-gupt/react-native-autocomplete-dropdown)](https://img.shields.io/github/license/akash-gupt/react-native-autocomplete-dropdown)
 [![npm](https://img.shields.io/npm/v/react-native-autocomplete-dropdown.svg)](https://npmjs.com/package/react-native-autocomplete-dropdown)
 [![npm](https://img.shields.io/npm/dm/react-native-autocomplete-dropdown.svg)](https://npmjs.com/package/react-native-autocomplete-dropdown)
 
@@ -17,7 +17,7 @@ Dropdown Item picker with search and autocomplete (typeahead) functionality for 
     <img src="./screens/ios.gif" width="280px" >
 </p>
 
-> Run expo snack demo [@onmotion/react-native-autocomplete-dropdown](https://snack.expo.io/@onmotion/react-native-autocomplete-dropdown)
+> Run expo snack demo [@akash-gupt/react-native-autocomplete-dropdown](https://snack.expo.io/@akash-gupt/react-native-autocomplete-dropdown)
 
 <img src="./screens/expo-qr.png" width="100">
 
@@ -172,7 +172,7 @@ const [selectedItem, setSelectedItem] = useState(null)
         />
 ```
 
-More examples see at https://github.com/onmotion/react-native-autocomplete-dropdown/tree/main/example
+More examples see at https://github.com/akash-gupt/react-native-autocomplete-dropdown/tree/main/example
 
 Run
 
