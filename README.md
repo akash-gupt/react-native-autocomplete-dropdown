@@ -39,7 +39,7 @@ Run: `npm install --save react-native-autocomplete-dropdown` or `yarn add react-
 ## Post-install Steps
 
 Make sure **react-native-vector-icons** is installed. Follow the guides
-https://github.com/oblador/react-native-vector-icons
+https://github.com/akash-gupt/react-native-vector-icons
 
 `yarn add react-native-vector-icons`
 
@@ -49,7 +49,7 @@ Run: `npx pod-install` for install react-native-vector-icons dependency (if not 
 
 ### Android
 
-Follow the guides from https://github.com/oblador/react-native-vector-icons#android for install react-native-vector-icons dependency (if not installed yet).
+Follow the guides from https://github.com/akash-gupt/react-native-vector-icons#android for install react-native-vector-icons dependency (if not installed yet).
 
 ## Usage
 
