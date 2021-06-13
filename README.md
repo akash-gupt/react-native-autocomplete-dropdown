@@ -210,6 +210,8 @@ npm run ios
 | `controller`                    | return reference to module controller with methods **close, open, toggle, clear** | function             |                                             |
 | `containerStyle`                |                                                                                   | object               |                                             |
 | `rightButtonsContainerStyle`    |                                                                                   | object               |                                             |
+| `suggestionsListTextStyle`      |                                                                                   | object               |                                             |
+| `textInputProps`                |                                                                                   | object               |                                             |
 | `suggestionsListContainerStyle` |                                                                                   | object               |                                             |
 | `ChevronIconComponent`          |                                                                                   | React.Component      | Feather chevron icon                        |
 | `ClearIconComponent`            |                                                                                   | React.Component      | Feather x icon                              |
